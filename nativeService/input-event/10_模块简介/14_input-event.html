@@ -1,0 +1,539 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>input-event · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../libmemcheck/10_模块简介/14_libmemcheck.html" />
+    
+    
+    <link rel="prev" href="../../rklog/10_模块简介/13_rklog.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../introduction.html">
+            
+                <a href="../../../introduction.html">
+            
+                    
+                    本地服务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../system-service.html">
+            
+                <a href="../../system-service.html">
+            
+                    
+                    本地服务简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    本地服务
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" >
+            
+                <span>
+            
+                    
+                    模块简介
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1.1" data-path="../../httpdns/10_模块简介/10_httpdns.html">
+            
+                <a href="../../httpdns/10_模块简介/10_httpdns.html">
+            
+                    
+                    httpdns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.2" data-path="../../lumenlight/10_模块简介/11_lumenlight.html">
+            
+                <a href="../../lumenlight/10_模块简介/11_lumenlight.html">
+            
+                    
+                    lumenlight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.3" >
+            
+                <span>
+            
+                    
+                    player
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1.3.1" data-path="../../librplayer/10_模块简介/12_player/10_RPlayer.html">
+            
+                <a href="../../librplayer/10_模块简介/12_player/10_RPlayer.html">
+            
+                    
+                    RPlayer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.3.2" data-path="../../librplayer/10_模块简介/12_player/11_WavPlayer.html">
+            
+                <a href="../../librplayer/10_模块简介/12_player/11_WavPlayer.html">
+            
+                    
+                    WavPlayer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.4" data-path="../../rklog/10_模块简介/13_rklog.html">
+            
+                <a href="../../rklog/10_模块简介/13_rklog.html">
+            
+                    
+                    rklog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2.1.5" data-path="14_input-event.html">
+            
+                <a href="14_input-event.html">
+            
+                    
+                    input-event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.6" data-path="../../libmemcheck/10_模块简介/14_libmemcheck.html">
+            
+                <a href="../../libmemcheck/10_模块简介/14_libmemcheck.html">
+            
+                    
+                    libmemcheck
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.7" data-path="../../vol_ctrl/10_模块简介/15_volctl.html">
+            
+                <a href="../../vol_ctrl/10_模块简介/15_volctl.html">
+            
+                    
+                    volctl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.8" data-path="../../display/10_模块简介/20_display.html">
+            
+                <a href="../../display/10_模块简介/20_display.html">
+            
+                    
+                    display
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.9" data-path="../../yimo/">
+            
+                <a href="../../yimo/">
+            
+                    
+                    yimo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >input-event</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#input-event&#x6A21;&#x5757;&#x7B80;&#x4ECB;"><b>1. </b>Input-event&#x6A21;&#x5757;&#x7B80;&#x4ECB;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E3B;&#x8981;&#x7ED3;&#x6784;&#x4F53;"><b>1.1. </b>&#x4E3B;&#x8981;&#x7ED3;&#x6784;&#x4F53;</a></li><li><span class="title-icon "></span><a href="#&#x4E3B;&#x8981;&#x63A5;&#x53E3;&#x51FD;&#x6570;"><b>1.2. </b>&#x4E3B;&#x8981;&#x63A5;&#x53E3;&#x51FD;&#x6570;</a></li><ul><li><span class="title-icon "></span><a href="#bool-initinputkeybool-hasslideeventint-selecttimeoutint-doubleclicktimeoutint-slidetimeout"><b>1.2.1. </b>bool init_input_key(bool has_slide_event,int select_time_out,int double_click_timeout,int slide_timeout);</a></li><li><span class="title-icon "></span><a href="#void-daemonstartlistenerstruct-keyevent--downupstruct-gesture--gest"><b>1.2.2. </b>void daemon_start_listener(struct keyevent * down_up,struct gesture * gest);</a></li></ul><li><span class="title-icon "></span><a href="#&#x914D;&#x7F6E;&#x6587;&#x4EF6;"><b>1.3. </b>&#x914D;&#x7F6E;&#x6587;&#x4EF6;</a></li><li><span class="title-icon "></span><a href="#&#x6B64;&#x6A21;&#x5757;&#x7684;&#x4F7F;&#x7528;"><b>1.4. </b>&#x6B64;&#x6A21;&#x5757;&#x7684;&#x4F7F;&#x7528;</a></li></ul></ul></div><a href="#input-event&#x6A21;&#x5757;&#x7B80;&#x4ECB;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="input-event&#x6A21;&#x5757;&#x7B80;&#x4ECB;"><a name="input-event&#x6A21;&#x5757;&#x7B80;&#x4ECB;" class="anchor-navigation-ex-anchor" href="#input-event&#x6A21;&#x5757;&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>1. Input-event&#x6A21;&#x5757;&#x7B80;&#x4ECB;</h1>
+<p>input-event&#x6A21;&#x5757;&#x53EF;&#x4EE5;&#x89C6;&#x4E3A;HAL&#x5C42;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x662F;&#x5BF9;&#x5E95;&#x5C42;input&#x4E8B;&#x4EF6;&#x7684;&#x5C01;&#x88C5;&#x548C;&#x5904;&#x7406;&#xFF0C;&#x5BF9;&#x4E0A;&#x63D0;&#x4F9B;&#x5904;&#x7406;&#x8FC7;&#x7684;input&#x65F6;&#x95F4;&#xFF0C;&#x4F8B;&#x5982;&#x5355;&#x51FB;&#x3001;&#x53CC;&#x51FB;&#x3001;&#x957F;&#x6309;&#x3001;&#x6ED1;&#x52A8;&#x7B49;&#x4E8B;&#x4EF6;&#x3002;</p>
+<p>input-event&#x5BF9;&#x4E0A;&#x5C42;&#x63D0;&#x4F9B;&#x52A8;&#x6001;&#x5E93;&#x548C;&#x5934;&#x6587;&#x4EF6;&#x201C;input-event.h&#x201D;&#x3002;</p>
+<h2 id="&#x4E3B;&#x8981;&#x7ED3;&#x6784;&#x4F53;"><a name="&#x4E3B;&#x8981;&#x7ED3;&#x6784;&#x4F53;" class="anchor-navigation-ex-anchor" href="#&#x4E3B;&#x8981;&#x7ED3;&#x6784;&#x4F53;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x4E3B;&#x8981;&#x7ED3;&#x6784;&#x4F53;</h2>
+<p>input-event&#x5BF9;&#x4E0A;&#x63D0;&#x4F9B;&#x7684;&#x4E8B;&#x4EF6;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x4E24;&#x4E2A;&#x7ED3;&#x6784;&#x4F53;&#xFF0C;<code>struct gesture</code>&#x548C;<code>struct keyevent</code>&#xFF0C;&#x539F;&#x578B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>struct gesture {
+    int key_code;
+    int action;
+    int slide_value;
+    int click_count;
+    bool new_action;
+    long long_press_time;
+};
+
+struct keyevent {
+    int action;
+    int key_code;
+    long key_time;
+    struct timeval key_timeval;
+    int value;
+    bool new_action;
+};
+</code></pre><ul>
+<li><code>new_action</code>&#xFF1A;&#x8868;&#x793A;&#x662F;&#x5426;&#x6709;&#x6309;&#x952E;&#x4E8B;&#x4EF6;&#xFF1B;  </li>
+<li><code>key_code</code>&#xFF1A;linux input.h&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x6807;&#x51C6;key code&#xFF0C;&#x4F8B;&#x5982; 114&#x662F;KEY_VOLUMEDOWN&#xFF0C;115&#x662F;KEY_VOLUMEUP&#x7B49;&#xFF1B;  </li>
+<li><p><code>action</code>&#xFF1A;&#x8868;&#x793A;&#x6309;&#x952E;&#x4E8B;&#x4EF6;&#xFF0C;&#x76EE;&#x524D;&#x6709;&#x5982;&#x4E0B;&#x51E0;&#x79CD;&#xFF1A;</p>
+<pre><code>  #define ACTION_ORDINARY_EVENT  0
+  #define ACTION_SINGLE_CLICK 1
+  #define ACTION_DOUBLE_CLICK 2
+  #define ACTION_LONG_CLICK 3
+  #define ACTION_SLIDE 4
+</code></pre></li>
+<li><code>slide_value</code>:slide&#x4E8B;&#x4EF6;&#x4F7F;&#x7528;&#xFF0C;&#x533A;&#x5206;slide up&#x548C;slide down&#x4E24;&#x79CD;&#x4E0D;&#x540C;&#x64CD;&#x4F5C;&#xFF1B;  </li>
+<li><code>click_count</code>&#xFF1A;&#x6682;&#x672A;&#x4F7F;&#x7528;&#xFF1B;  </li>
+<li><code>long_press_time</code>&#xFF1A;&#x957F;&#x6309;&#x4E8B;&#x4EF6;&#x7684;&#x65F6;&#x95F4;&#xFF1B;  </li>
+<li><code>key_time</code>&#xFF1A;&#x6309;&#x952E;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x5355;&#x4F4D;ms&#xFF1B;  </li>
+<li><code>key_timeavl</code>&#xFF1A;timeval&#x683C;&#x5F0F;&#x7684;&#x65F6;&#x95F4;&#xFF1B;  </li>
+<li><code>value</code>&#xFF1A;&#x8868;&#x793A;&#x6309;&#x4E0B;&#x8FD8;&#x662F;&#x62AC;&#x8D77;&#x3002;</li>
+</ul>
+<h2 id="&#x4E3B;&#x8981;&#x63A5;&#x53E3;&#x51FD;&#x6570;"><a name="&#x4E3B;&#x8981;&#x63A5;&#x53E3;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x4E3B;&#x8981;&#x63A5;&#x53E3;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x4E3B;&#x8981;&#x63A5;&#x53E3;&#x51FD;&#x6570;</h2>
+<p>&#x5BF9;&#x4E0A;&#x4E3B;&#x8981;&#x63D0;&#x4F9B;&#x4E24;&#x4E2A;&#x63A5;&#x53E3;&#x51FD;&#x6570;&#xFF1A;</p>
+<h3 id="bool-initinputkeybool-hasslideeventint-selecttimeoutint-doubleclicktimeoutint-slidetimeout"><a name="bool-initinputkeybool-hasslideeventint-selecttimeoutint-doubleclicktimeoutint-slidetimeout" class="anchor-navigation-ex-anchor" href="#bool-initinputkeybool-hasslideeventint-selecttimeoutint-doubleclicktimeoutint-slidetimeout"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.1. bool init_input_key(bool has_slide_event,int select_time_out,int double_click_timeout,int slide_timeout);</h3>
+<ul>
+<li><code>has_slide_event</code>&#xFF1A;bool&#x578B;&#xFF0C;&#x8868;&#x793A;&#x662F;&#x5426;&#x652F;&#x6301;&#x6ED1;&#x52A8;&#x4E8B;&#x4EF6;&#xFF1B;</li>
+<li><code>select_time_out</code>&#xFF1A;select&#x51FD;&#x6570;&#x8D85;&#x65F6;&#x65F6;&#x95F4;&#xFF0C;&#x5373;&#x5355;&#x6B21;&#x76D1;&#x6D4B;input&#x4E8B;&#x4EF6;&#x7684;&#x8D85;&#x65F6;&#x65F6;&#x95F4;&#xFF1B;</li>
+<li><code>double_click_timeout</code>&#xFF1A;&#x5224;&#x65AD;&#x662F;&#x5426;&#x662F;&#x53CC;&#x51FB;&#x4E8B;&#x4EF6;&#x7684;&#x8D85;&#x65F6;&#x65F6;&#x95F4;&#xFF0C;&#x6309;&#x952E;&#x95F4;&#x9694;&#x8D85;&#x8FC7;&#x8FD9;&#x4E2A;&#x65F6;&#x95F4;&#x5373;&#x8BA4;&#x4E3A;&#x4E0D;&#x662F;&#x53CC;&#x51FB;&#x4E8B;&#x4EF6;&#xFF1B;</li>
+<li><code>slide_timeout</code>&#xFF1A;&#x6ED1;&#x52A8;&#x4E8B;&#x4EF6;&#x7684;&#x8D85;&#x65F6;&#x65F6;&#x95F4;&#xFF1B;</li>
+<li>init&#x6210;&#x529F;&#x8FD4;&#x56DE;true&#xFF0C;&#x5931;&#x8D25;&#x8FD4;&#x56DE;false&#x3002;</li>
+</ul>
+<h3 id="void-daemonstartlistenerstruct-keyevent--downupstruct-gesture--gest"><a name="void-daemonstartlistenerstruct-keyevent--downupstruct-gesture--gest" class="anchor-navigation-ex-anchor" href="#void-daemonstartlistenerstruct-keyevent--downupstruct-gesture--gest"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.2. void daemon_start_listener(struct keyevent * down_up,struct gesture * gest);</h3>
+<ul>
+<li><code>down_up</code>&#xFF1A;struct keyevent &#x6307;&#x9488;&#x7C7B;&#x578B;&#xFF0C;&#x4E00;&#x4E2A;&#x76D1;&#x6D4B;&#x5468;&#x671F;&#x5185;&#x7684;keyevent&#x4E8B;&#x4EF6;&#x5C06;&#x586B;&#x5165;&#x6307;&#x9488;&#x6307;&#x5411;&#x7684;&#x7ED3;&#x6784;&#x4F53;&#xFF1B;</li>
+<li><code>gest</code>&#xFF1A; struct gesture &#x6307;&#x9488;&#x7C7B;&#x578B;&#xFF0C;&#x4E00;&#x4E2A;&#x76D1;&#x6D4B;&#x5468;&#x671F;&#x5185;&#x7684;gesture&#x4E8B;&#x4EF6;&#x5C06;&#x586B;&#x5165;&#x6307;&#x9488;&#x6307;&#x5411;&#x7684;&#x7ED3;&#x6784;&#x4F53;&#x3002;</li>
+</ul>
+<h2 id="&#x914D;&#x7F6E;&#x6587;&#x4EF6;"><a name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#&#x914D;&#x7F6E;&#x6587;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x914D;&#x7F6E;&#x6587;&#x4EF6;</h2>
+<p>&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4F4D;&#x4E8E;openwrt/package/rokid/input-event/files&#x76EE;&#x5F55;&#xFF0C;&#x7F16;&#x8BD1;&#x65F6;copy&#x5230;&#x8BBE;&#x5907;&#x7684;/etc&#x76EE;&#x5F55;&#xFF0C;&#x547D;&#x540D;&#x4E3A;<code>input-event.conf</code>&#xFF0C;&#x5177;&#x4F53;&#x7684;&#x914D;&#x7F6E;&#x9879;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x89E3;&#x91CA;&#xFF1A;</p>
+<pre><code>*[Global]*::
+Specifies all devices files to listen to. This option may be used more than
+once.
+
+*[Keys]*::
+All commands in this section are executed when the specified shortcut occurred.
+Modifiers are separated by the plus sign. A shortcut may be defined only once.
+
+*[Switches]*::
+This section defines commands which are executed when a specified switch is set
+to the defined value. Switch name and value are separated by a colon.
+
+*[Idle]*::
+The commands defined in this section are executed after all input devices did
+not send any events in the specified amount of time. The special key &apos;RESET&apos;
+is triggered when returning from idle.
+</code></pre><p>Global&#x9879;&#x4E0B;&#x4E3A;&#x9700;&#x8981;&#x76D1;&#x6D4B;&#x7684;&#x6587;&#x4EF6;&#x8282;&#x70B9;&#xFF0C;&#x6700;&#x5927;&#x652F;&#x6301;32&#x4E2A;&#xFF1B;Keys Switches Idle&#x7B49;&#x9879;&#x4E0B;&#x4E3A;&#x5177;&#x4F53;&#x7684;key event&#x53EF;&#x4EE5;&#x6267;&#x884C;&#x7684;shell&#x547D;&#x4EE4;&#xFF0C;&#x76EE;&#x524D;&#x6211;&#x4EEC;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#x3002;</p>
+<h2 id="&#x6B64;&#x6A21;&#x5757;&#x7684;&#x4F7F;&#x7528;"><a name="&#x6B64;&#x6A21;&#x5757;&#x7684;&#x4F7F;&#x7528;" class="anchor-navigation-ex-anchor" href="#&#x6B64;&#x6A21;&#x5757;&#x7684;&#x4F7F;&#x7528;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x6B64;&#x6A21;&#x5757;&#x7684;&#x4F7F;&#x7528;</h2>
+<p>&#x9996;&#x5148;&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF0C;&#x6DFB;&#x52A0;&#x9700;&#x8981;&#x76D1;&#x6D4B;&#x7684;input&#x4E8B;&#x4EF6;&#x7684;&#x6587;&#x4EF6;&#x8282;&#x70B9;&#xFF0C;&#x6DFB;&#x52A0;&#x5177;&#x4F53;&#x7684;Keys&#x548C;Switches&#x4E8B;&#x4EF6;&#x9700;&#x8981;&#x6267;&#x884C;&#x7684;&#x547D;&#x4EE4;(&#x53EF;&#x9009;)&#xFF1B;<br>&#x6E90;&#x7801;&#x4E2D;&#x6DFB;&#x52A0;&#x5934;&#x6587;&#x4EF6;&#x4F9D;&#x8D56;&#xFF1A;<code>#include &lt;input-event/input-event.h&gt;</code>&#xFF1B;<br>&#x9996;&#x5148;&#x8C03;&#x7528;<code>init_input_key</code>&#x51FD;&#x6570;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x6839;&#x636E;&#x8BBE;&#x5907;&#x5177;&#x4F53;&#x60C5;&#x51B5;&#x8BBE;&#x7F6E;&#x662F;&#x5426;&#x652F;&#x6301;slide&#xFF0C;&#x5404;&#x79CD;&#x8D85;&#x65F6;&#x65F6;&#x95F4;&#xFF0C;&#x8FD4;&#x56DE;true&#x540E;&#xFF0C;&#x5FAA;&#x73AF;&#x8C03;&#x7528;<code>daemon_start_listener</code>&#x51FD;&#x6570;&#x83B7;&#x53D6;&#x5177;&#x4F53;&#x7684;&#x8F93;&#x5165;&#x4E8B;&#x4EF6;&#xFF0C;&#x5E76;&#x8FDB;&#x884C;&#x76F8;&#x5E94;&#x4E1A;&#x52A1;&#x5904;&#x7406;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../../rklog/10_模块简介/13_rklog.html" class="navigation navigation-prev " aria-label="Previous page: rklog">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../libmemcheck/10_模块简介/14_libmemcheck.html" class="navigation navigation-next " aria-label="Next page: libmemcheck">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"input-event","level":"1.2.2.1.5","depth":4,"next":{"title":"libmemcheck","level":"1.2.2.1.6","depth":4,"path":"nativeService/libmemcheck/10_模块简介/14_libmemcheck.md","ref":"nativeService/libmemcheck/10_模块简介/14_libmemcheck.md","articles":[]},"previous":{"title":"rklog","level":"1.2.2.1.4","depth":4,"path":"nativeService/rklog/10_模块简介/13_rklog.md","ref":"nativeService/rklog/10_模块简介/13_rklog.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","expandable-chapters-interactive","vistors-github"],"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"vistors-github":{"repo":"Rokid/native-system-docs"},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"expandable-chapters-interactive":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"nativeService/input-event/10_模块简介/14_input-event.md","mtime":"2018-12-25T13:53:27.127Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-25T13:54:19.994Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-vistors-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
