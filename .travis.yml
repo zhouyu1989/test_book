@@ -27,8 +27,6 @@ deploy:
     github_token: $ZY-TOKEN
     local-dir: _book
     target_branch: gh-pages
-    edge:
-      branch: v1.8.47
     on:
       branch: master
 
